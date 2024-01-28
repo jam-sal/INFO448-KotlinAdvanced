@@ -51,7 +51,16 @@ val r1 = { process("FOO") {"BAR"} }
 val r2_message = "wooga"
 val r2 = { process("FOO") {r2_message.repeat(3).toUpperCase()} }
 
+/*
+EXTRA CREDIT: Seneca the Younger
+Seneca the Younger whose real name was Lucius Annaeus Seneca was an Ancient Roman philosopher. He also was a playwright and a statesman.
+He worked for Emperor Nero as a political advisor and was eventually forced to commit suicide because of suspicion for being involved in
+a conspiracy which aimed to kill Nero. The school of philosophy he is most commonly associated with is Stoicism.
 
+EXTRA CREDIT: Stoicism in one sentence
+Stoicism is the belief that following the four virtues: wisdom, courage, temperance or moderation, and justice, and living in accordance with nature
+would lead to one having eudaimonia, or a well-lived life.
+*/
 // write an enum-based state machine between talking and thinking
 enum class Philosopher {
     THINKING {
